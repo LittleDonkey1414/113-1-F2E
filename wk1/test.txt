@@ -1,2 +1,5 @@
 Today is 2024/9/28, it's my first time using the terminal to create, delete the files or directory.
 I'll try to push this repository to Github later.
+
+20240929:
+why didn't I need to enter the token before pushing?
