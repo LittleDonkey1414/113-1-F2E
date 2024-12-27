@@ -1,0 +1,153 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edf2c5;
+    font-family: "Noto Sans", serif;
+    margin: 0;
+}
+
+/* header */
+.web-title {
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    margin: 36px auto 0 auto;
+}
+
+.web-title h1 {
+    color: #778a50;
+    font-size: 44px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.header-right {
+    align-self: center;
+    display: flex;
+    height: 24px;
+    column-gap: 12px;
+}
+
+.header-right hr {
+    height: 24px;
+    width: 1px;
+    align-self: center;
+    border: none;
+    background-color: #778a50;
+}
+
+.header-button {
+    border: 1px solid #778a50;
+    border-radius: 3px;
+    padding: 4px 8px;
+    align-self: center;
+    font-weight: 700;
+    color: #778a50;
+}
+
+/* nav */
+.nav-list {
+    width: 1120px;
+    margin: 10px auto 0 auto;
+    display: flex;
+    list-style-type: none;
+    background-color: #778a50;
+    padding: 20px 30px;
+    column-gap: 60px;
+    border-radius: 3px;
+}
+
+.nav-list li {
+    font-size: 16px;
+    font-weight: 900;
+    color: #edf2c5;
+}
+
+/* main */
+main {
+    width: 1120px;
+    margin: 16px auto 0 auto;
+}
+
+.main-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.box-vegetable {
+    flex-basis: 528px;
+}
+
+.box-contact {
+    flex-basis: 528px;
+}
+
+.box-vegetable h2 {
+    background-color: #778a50;
+    color: #edf2c5;
+    font-size: 16px;
+    font-weight: 900;
+    height: 45px;
+    padding: 10px 30px;
+    margin: 16px 0;
+    border-radius: 3px;
+}
+
+.box-vegetable .img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-contact h2 {
+    background-color: #778a50;
+    color: #edf2c5;
+    font-size: 16px;
+    font-weight: 900;
+    height: 45px;
+    padding: 10px 30px;
+    margin: 16px 0;
+    border-radius: 3px;
+}
+
+.box-contact > div {
+    background-color: #f7fbda;
+    padding: 16px;
+}
+
+.box-contact > div p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #7d7d7d;
+}
+
+.box-contact > div hr{
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #7d7d7d;
+    margin: 9px 0;
+}
+
+.box-contact > div .p2{
+    margin: 2px 0;
+}
+
+/* footer */
+footer {
+    background-color: #778a50;
+    height: 60px;
+    margin-top: 117px;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #edf2c5;
+    text-align: center;
+    line-height: 60px;
+    margin: 0;
+}
